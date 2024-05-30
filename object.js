@@ -28,4 +28,12 @@ const person={
     hasDriverLicense:true
 }
 
+console.log(person.job);
+
+person.hasDriverLicense=false;
+console.log(person.hasDriverLicense);
+
+//new property add
+
+person.location="Bremen"
 console.log(person);
