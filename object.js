@@ -85,3 +85,8 @@ const people = [
     const newAges =people.map((kisi)=>kisi.age+1)
 
     console.log(newAges);
+
+   console.log(people.map((insan,i,array)=>array[i].age=insan.age+1))
+
+   //----------avarega age with reduce
+   console.log(people.reduce((toplam,eleman)=>toplam+eleman.age,0)/people.length);
